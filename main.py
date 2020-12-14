@@ -1,16 +1,30 @@
-# This is a sample Python script.
+from Herencia import Persona, Empleado
+from Poo import Alumno
 
-# Press Mayús+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# print("\n____________Desde clase main____________")
+#
+# # Creacion de Alumno de la clase Poo
+# alumno1 = Alumno()
+# alumno2 = Alumno()
+#
+# # Inicializacion de la clase
+# alumno1.inicializar(nombre=input("Introduce el nombre del alumno 1: "),
+#                     nota=int(input("Introduce la nota del alumno 1: ")))
+# alumno2.inicializar(nombre=input("Introduce el nombre del alumno 2: "),
+#                     nota=int(input("Introduce la nota del alumno 2: ")))
+#
+# # Imprimir atributos
+# alumno1.imprimir()
+# alumno2.imprimir()
+#
+# # Mostrar resultados
+# alumno1.resultado()
+# alumno2.resultado()
 
+print("\n____________Clase Persona/Empleado____________")
+persona = Persona()
+persona.imprimir()
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+empleado = Empleado()
+empleado.imprimir()
+empleado.impuestos()
