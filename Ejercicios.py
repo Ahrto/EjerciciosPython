@@ -1,21 +1,23 @@
+# Solicitar nombre y mostrar por pantalla
+nombre = input("¿Cómo te llamas? ")
+print("Hola", nombre)
+
 # Multiplicar dos numeros
+print("\nVamos a multiplicar dos números")
 n1 = input("Introduce un primer número: ")
 n2 = input("Introduce el segundo número: ")
 
 print(int(n1) * int(n2))
 
-# Solicitar nombre y mostrar por pantalla
-nombre = input("¿Cómo te llamas? ")
-print("Hola", nombre)
-
 # Solicita km recorridos y litros de combustible consumidos, programa muestra el consumo por km
+print("\nVoy a calcular tu consumo de combustible")
 km = float(input("Kilometros recorridos: "))
 litros = float(input("Litros consumidos: "))
 print("El consumo por kilómetro es de", km / litros)
 
 # Condicionales Programa que solicita una letra, si es vocal muestra el mensaje "Es vocal". Verificar si el usuario
 # ingreso un string de mas de un caracter y, en ese caso, informarle de que no se puede procesar el dato
-
+print("\nIntroduce una letra y te diré si es una vocal")
 letra = input("Letra: ")
 if len(letra) != 1:
     print("Introduce SOLO una letra")
@@ -29,7 +31,7 @@ else:
 # Permite al usuario ingresar 6 numeros positivos o negativos.
 # Muestra sumatoria de numeros negativos y promedio de positivos.
 # No se puede dividir entre 0
-
+print("\nIntroduce seis número (positivos o negativos), te daré la media de los positivos y la suma de los negativos")
 positivos = 0
 sumaPositivos = 0
 negativos = 0
@@ -51,6 +53,7 @@ if positivos != 0:
 
 # While
 # Programa que, dada una frase por el usuario, la muestre invertida
+print("\nIntroduce una frase y la daré la vuelta")
 frase = input("Frase: ")
 nueva = ""
 i = len(frase) - 1
