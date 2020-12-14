@@ -6,6 +6,7 @@
 
 def palindromo(cadena):
     if len(cadena) == 1:
+        print("Es un palindromo")
         return True
     else:
         nueva = ""
@@ -21,6 +22,9 @@ def palindromo(cadena):
             return False
 
 
+print(
+    "__________COMPROBACIÓN DE PALÍNDROMOS__________\nComprueba si la palabra introducida es un "
+    "palíndromo.\nPara salir del programa escribe 'fin' sin comillas\n")
 contador = 0
 cadena = input("Cadena: ")
 while cadena != "fin":
