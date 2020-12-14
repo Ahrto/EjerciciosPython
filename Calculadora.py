@@ -9,6 +9,7 @@ class Calculadora:
         self.n1 = int(input("Número 1: "))
         self.n2 = int(input("Número 2: "))
 
+
     def suma(self):
         print("La suma de los números es: ", self.n1 + self.n2)
 
